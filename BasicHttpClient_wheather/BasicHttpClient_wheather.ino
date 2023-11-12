@@ -29,7 +29,7 @@ void setup() {
     delay(1000);
   }
 
-  wifiMulti.addAP("KT_GiGA_8AA4", "1baf5kk305");
+  wifiMulti.addAP("your_wifi_name", " password");
   xTaskCreate(task1, "task1", 2048, NULL, 1, NULL);
 }
 String temp;//온도
